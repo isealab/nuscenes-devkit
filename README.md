@@ -123,7 +123,7 @@ To install nuScenes-lidarseg, please follow these steps:
 - Download the dataset from the [Download page](https://www.nuscenes.org/download),
 - Extract the `lidarseg` and `v1.0-*` folders to your nuScenes root directory (e.g. `/data/sets/nuscenes/lidarseg`, `/data/sets/nuscenes/v1.0-*`).
 - Get the latest version of the nuscenes-devkit.
-- If you already have a previous version of the devkit, update the pip requirements (see [details](https://github.com/nutonomy/nuscenes-devkit/blob/master/docs/installation.md)): `pip install -r setup/requirements.txt`
+- If you have a local clone of the devkit and want to install or update it, navigate to the root of the devkit directory and run `pip install .` to install the core package, or `pip install .[<option>]` (e.g., `pip install .[prediction,tracking]`) if you need specific optional features.
 - Get started with the [tutorial](https://github.com/nutonomy/nuscenes-devkit/blob/master/python-sdk/tutorials/nuscenes_lidarseg_panoptic_tutorial.ipynb).
 
 ### Prediction challenge
@@ -141,7 +141,7 @@ To install this expansion, please follow these steps:
 - Download the expansion from the [Download page](https://www.nuscenes.org/download),
 - Extract the can_bus folder to your nuScenes root directory (e.g. `/data/sets/nuscenes/can_bus`).
 - Get the latest version of the nuscenes-devkit.
-- If you already have a previous version of the devkit, update the pip requirements (see [details](https://github.com/nutonomy/nuscenes-devkit/blob/master/docs/installation.md)): `pip install -r setup/requirements.txt`
+- If you have a local clone of the devkit and want to install or update it, navigate to the root of the devkit directory and run `pip install .` to install the core package, or `pip install .[<option>]` (e.g., `pip install .[prediction,tracking]`) if you need specific optional features.
 - Get started with the [CAN bus readme](https://github.com/nutonomy/nuscenes-devkit/blob/master/python-sdk/nuscenes/can_bus/README.md) or [tutorial](https://github.com/nutonomy/nuscenes-devkit/blob/master/python-sdk/tutorials/can_bus_tutorial.ipynb).
 
 ### Map expansion
@@ -150,7 +150,7 @@ To install this expansion, please follow these steps:
 - Download the expansion from the [Download page](https://www.nuscenes.org/download),
 - Extract the contents (folders `basemap`, `expansion` and `prediction`) to your nuScenes `maps` folder.
 - Get the latest version of the nuscenes-devkit.
-- If you already have a previous version of the devkit, update the pip requirements (see [details](https://github.com/nutonomy/nuscenes-devkit/blob/master/docs/installation.md)): `pip install -r setup/requirements.txt`
+- If you have a local clone of the devkit and want to install or update it, navigate to the root of the devkit directory and run `pip install .` to install the core package, or `pip install .[<option>]` (e.g., `pip install .[prediction,tracking]`) if you need specific optional features.
 - Get started with the [map expansion tutorial](https://github.com/nutonomy/nuscenes-devkit/blob/master/python-sdk/tutorials/map_expansion_tutorial.ipynb).
 For more information, see the [map versions](#map-versions) below.
 

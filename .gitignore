@@ -19,3 +19,19 @@ doc
 .project
 .pydevproject
 _ext
+
+# Build artifacts and directories
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+test_env/
+venv/
+*.venv/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.coverage
